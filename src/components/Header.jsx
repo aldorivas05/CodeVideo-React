@@ -1,7 +1,7 @@
 import React from "react";
 import logo from '../assets/logo.png'
 import userIcon from '../assets/user1.png'
-import '../styles/Header.css'
+import '../styles/Header.scss'
 
 
 const Header = () => {

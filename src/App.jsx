@@ -1,11 +1,10 @@
 import { useState } from 'react'
-import './styles/App.css'
+import './styles/App.scss'
 import { Header } from './components/Header'
 import Search from './components/Search'
 import Categories from './components/Categories'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>

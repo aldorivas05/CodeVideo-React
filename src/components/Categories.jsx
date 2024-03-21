@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/Categories.css';
+import '../styles/Categories.scss';
 import {Carousel} from './Carousel';
 
 const Categories = ({ title }) => (
