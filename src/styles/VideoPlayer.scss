@@ -12,16 +12,38 @@
 
 .x-icon {
     position: absolute;
-    top: 180px; /* Ajusta la distancia desde la parte superior */
-    right: 50px; /* Ajusta la distancia desde la parte derecha */
+    top: 150px; /* Ajusta la distancia desde la parte superior */
+    right: 400px; /* Ajusta la distancia desde la parte derecha */
     z-index: 100;
     cursor: pointer;
 }
 
 .video-overlay iframe {
+    width: 560px;
+    height: 315px;
     position: absolute;
     top: 50%; /* Alinea verticalmente el VideoPlayer en el centro */
     left: 50%; /* Alinea horizontalmente el VideoPlayer en el centro */
     transform: translate(-50%, -50%); /* Centra el VideoPlayer exactamente */
     /* Agrega otros estilos específicos para el VideoPlayer según tus necesidades */
+    border: none;
+}
+
+
+@media screen and (max-width: 767px) {
+    .x-icon {
+        position: absolute;
+        top: 300px; /* Ajusta la distancia desde la parte superior */
+        right: 30px; /* Ajusta la distancia desde la parte derecha */
+        z-index: 100;
+        cursor: pointer;
+    }
+    .video-overlay iframe {
+        width: 360px;
+        height: 215px;
+        position: absolute;
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%);
+    }  
 }

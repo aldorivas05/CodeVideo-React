@@ -1,8 +1,10 @@
-import { useState } from 'react'
-import './styles/App.scss'
-import { Header } from './components/Header'
-import Search from './components/Search'
-import Categories from './components/Categories'
+import { useState } from 'react';
+import './styles/App.scss';
+import { Header } from './components/Header';
+import Search from './components/Search';
+import Categories from './components/Categories';
+import CategoriesJun from './components/CategoriesJun';
+import CategoriesMarch from './components/CategoriesMarch';
 
 function App() {
 
@@ -10,9 +12,9 @@ function App() {
     <>
       < Header />
       < Search />
-      < Categories title="Tendencias"/>
-      < Categories title="Peliculas"/>
-      < Categories title="Series"/>
+      < Categories title="New in April 2024 | Netflix"/>
+      < CategoriesJun title="New in January 2024 | Netflix"/>
+      < CategoriesMarch title="New in March 2024 | Netflix"/>
     </>
   )
 }

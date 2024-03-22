@@ -6,14 +6,14 @@
     flex-direction: column;
 }
 .main__title {
-    color: black;
+    color: #888;
     font-size: 25px;
 }
 .input {
     background-color: rgba(255, 255, 255, 0.1);;
-    border: 2px solid black;
+    border: 2px solid #888;
     border-radius: 30px;
-    color: black;
+    color: #888;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
     height: 40px;
@@ -23,5 +23,5 @@
 
 }
 ::placeholder {
-    color: black;
+    color: #888;
 }

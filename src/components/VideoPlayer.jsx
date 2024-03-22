@@ -6,7 +6,7 @@ import '../styles/VideoPlayer.scss'
 
 const VideoPlayer = ({selectedVideoId, showVideoBanner, setShowVideoBanner}) => {
     
-    const handleXIconClick = (videoId) => {
+    const handleXIconClick = () => {
         setShowVideoBanner(!showVideoBanner)
     };
 
@@ -16,8 +16,6 @@ const VideoPlayer = ({selectedVideoId, showVideoBanner, setShowVideoBanner}) => 
                 <Xicon />
             </div>
             <iframe
-                width="560"
-                height="315"
                 src={`https://www.youtube.com/embed/${selectedVideoId}?autoplay=0`}
                 allowFullScreen
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
